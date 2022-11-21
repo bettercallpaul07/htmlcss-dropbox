@@ -96,6 +96,46 @@ header {
     width: 110%;
 }
 
+.plan-section {
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    margin-top: 50px;
+    border: 2px dashed red;
+
+}
+
+.plan-choise {
+    height: 10%;
+    border: 2px dashed red;
+
+}
+
+.plan-column {
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    border: 2px dashed red;
+}
+
+.first-column, .second-column, .third-column {
+
+    width: 25%;
+    height: 100%;
+    border: 2px dashed red;
+    margin: 0 auto;
+
+}
 
 
+.team-section {
+    width: 70%;
+    margin: 0 auto;
+    height: 20vh;
+    border: 2px dashed red;
+}
 
+.partner-section {
+    margin-top: 30vh;
+    
+}
