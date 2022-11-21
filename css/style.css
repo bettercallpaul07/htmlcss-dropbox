@@ -9,3 +9,93 @@
 * {
 font-family: 'Arial', sans-serif;
 }
+
+header {
+    height: 10vh;
+    background-color: orange;
+    padding: 3vh;
+    display: flex;
+}
+
+.logo {
+    width: 10%;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.left-menu {
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+
+.right-menu {
+    width: 40%;
+    align-content:center;
+    padding: 10px;
+}
+
+.login-button {
+    width: 10%;
+    align-content: center;
+    padding: 10px;
+
+}
+
+.right-menu > ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.left-menu > ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.hero-container {
+    height: 50vh;
+    background-color: azure;
+}
+
+.hero-section {
+    border: 2px dashed red;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.hero-title {
+    height: 20%;
+    border: 2px dashed red;
+}
+
+.flex-item {
+    display: flex;
+    border: 2px dashed red;
+    height: 80%;
+}
+
+.hero-info {
+    width: 40%;
+    border: 2px dashed red;
+
+}
+
+.hero-img {
+    width: 60%;
+    border: 2px dashed red;
+}
+
+.hero-img > img {
+    height: 110%;
+    width: 110%;
+}
+
+
+
+
