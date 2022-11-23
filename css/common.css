@@ -75,3 +75,7 @@
 .ptop {
     padding-top: 20px;
 }
+
+.fwrap {
+    flex-wrap: wrap;
+}
