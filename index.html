@@ -4,33 +4,48 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Dropbox</title>
     </head>
     <body>
         <header>
-            <nav class="main-nav dflex spacebwt alicenter">
-                <div>LEFT</div>
-                <div>RIGHT</div>
+            <nav class="main-nav dflex spacebwt">
+                <ul class="dflex">
+                    <img #id="logo" src="img/logo-small.png" alt="Dropbox">
+                    <li><a href="#">Perché Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e Prezzi</a></li>
+                </ul>
+                <ul class="dflex">
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+                    <li><a href="#" class="my-btn">Inizia</a></li>
+                </ul>
             </nav>
-
-
-            <img class="logo" src="img/logo-small.png" alt="Dropbox">
-
       
         </header>
 
         <main>
             <!-- Sezione Hero con CTA -->
-            <section class="hero-container">
+            <section id="hero-container">
                 <div class="container-large">
                     <div class="hero-title">
-                        <h1>Titolo</h1>
+                        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                     </div>
-                    <div class="flex-item">
-                        <div class="hero-info">
-                            <p>Descrizione</p>
-                            <div class="hero-button">
+                    <div class="dflex spacebwt">
+                        <div class="hero-info w60">
+                            <p class="pbottom">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                            <div class="hero-button w40">
+                                <button class="my-btn">Inizia la tua prova gratuita</button>
+                                <p class="pbottom ptop">Annulla in qualsiasi momento</p>
+                                <i class="fa-solid fa-arrow-down fa-3x"></i>
                             </div>
                         </div>
                         <div class="hero-img">
@@ -42,7 +57,7 @@
 
             <!-- Sezione Plan -->
             <section class="plan-section container mgbotton30">
-                <h2>Trova il pano business che fa per te</h2>
+                <h2>Trova il piano business che fa per te</h2>
                 <div class="plan-choise">
                     <span>Fatturazione mensile</span>
                     <span>Fatturazione annuale</span>
@@ -51,6 +66,18 @@
                 <!-- Inizio Colonne -->
                 <div class="dflex strechit justc">
                     <div class="plan-column w30">
+                        <div class="plan-header">
+                            <i class="fa-solid fa-user">Singolo</i>
+                            <h3>Professional</h3>
+                            <p><strong>€12.00€</strong></p>
+                            <p>/mese</p>
+                            <ul>
+                                <li><i class="fa-solid.fa-share-nodes"></i> 1 utente</li>
+                                <li><i class="fa-solid.fa-share-nodes"></i>5TB di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid.fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
+                            <button></button>
+                        </div>
 
                     </div>
                     <div class="plan-column w30">
@@ -117,23 +144,22 @@
             <div class="mgbotton30">
                 <h2>Più di 500.000 utenti utilizzano Dropbox Business</h2>
             </div>
-
             <section id="testimonial">
                 <div class="big-box">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div><img src="img/designit.svg" alt=""></div>
+                    <div><img src="img/arizona_state_university.svg" class="asu" alt=""></div>
+                    <div><img src="img/university_of_florida.svg" class="uf" alt=""></div>
+                    <div><img src="img/topps.svg" class="tops" alt=""></div>
+                </div>
+                <div class="big-box">
+                    <img src="img/designit.svg" alt="">
 
                 </div>
                 <div class="big-box">
-
-                </div>
-                <div class="big-box">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div><img src="img/world_bicycle_relief.svg" class="wbr" alt=""></div>
+                    <div><img src="img/hearst_corp.svg" class="hearts" alt=""></div>
+                    <div><img src="img/lonely_planet.svg" class="lonely" alt=""></div>
+                    <div><img src="img/clear_channel.svg" class="cco" alt=""></div>
                 </div>
 
             </section>

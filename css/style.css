@@ -1,57 +1,5 @@
-/* CONFIG INIZIALE */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* REGOLE GENERALI */
-
-* {
-font-family: 'Arial', sans-serif;
-}
-
-.dflex {
-    display: flex;
-}
-
-.strechit {
-    align-items: stretch;
-}
-
-.spacebwt {
-    justify-content: space-between;
-}
-
-.alicenter {
-    align-items: center;
-}
-
-.justc {
-    justify-content: center;
-}
-
-.w30 {
-    width: 30%;
-}
-
-
-.w60 {
-    width: 60%;
-}
-
-.w70 {
-    width: 70%;
-}
-
-.w100 {
-    width: 100%;
-}
-
-.mgbotton30 {
-    margin-bottom: 30px;
-}
+/* CONTAINER */
 
 .container {
     margin: 0 auto;
@@ -72,7 +20,6 @@ font-family: 'Arial', sans-serif;
     border: 2px dashed red;
     max-width: 1300px;
     margin: 0 auto;
-    background-color: aqua;
     height: 500px;
 }
 
@@ -80,15 +27,100 @@ font-family: 'Arial', sans-serif;
 /* HEADER */
 
 header {
-    background-color: orange;
     padding: 10px;
+    width: 100%;
+    height: 100px;
+
     position: fixed;
     top: 0;
     left: 0;
     z-index: 30;
-    width: 100%;
-    height: 100px;
+
+    background-color: white;
 }
+
+
+.main-nav {
+    width: 100%;
+}
+
+
+.main-nav ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+
+.main-nav ul li {
+    display: inline-block;
+    height: 100%;
+    align-items: center;
+}
+
+.main-nav ul li a {
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+}
+
+
+.main-nav ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+
+.main-nav #logo:hover {
+    border-bottom: none;
+}
+
+.main-nav .my-btn:hover {
+    border-bottom: none;
+}
+
+.my-btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* HERO SECTION */
+
+#hero-container {
+    background-color: azure;
+}
+
+.hero-title {
+    height: 35%;
+    font-size: 2em;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: bold;
+}
+
+.hero-info {
+    width: 40%;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+
+
+}
+
+.hero-img {
+    width: 60%;
+}
+
+.hero-img > img {
+    height: 100%;
+    width: 100%;
+}
+
+
 
 
 /* MAIN */
@@ -98,44 +130,29 @@ main {
 }
 
 
-.hero-title {
-    height: 20%;
-    border: 2px dashed red;
-}
-
-.flex-item {
-    display: flex;
-    border: 2px dashed red;
-}
-
-.hero-info {
-    width: 40%;
-    border: 2px dashed red;
-
-}
-
-.hero-img {
-    width: 60%;
-    border: 2px dashed red;
-}
-
-.hero-img > img {
-    height: 110%;
-    width: 110%;
-}
 
 .plan-choise {
     height: 100px;
-    background-color: orange;
-
 }
 
 .plan-column {
     margin: 0 auto;
     min-height: 600px;
     border: 1px solid lightgrey;
-    background-color: pink;
 }
+
+.plan-column ul {
+    list-style: none;
+}
+
+.plan-column ul li {
+    text-indent: -10px;
+    padding-left: 40px;
+}
+
+
+
+
 
 #team {
     height: 300px;
@@ -162,13 +179,11 @@ main {
 .info-column {
     height: 300px;
     border: 1px dashed red;
-    background-color: aqua;
 }
 
 .big-box {
     width: calc(100%/3);
     height: calc(100vw/3);
-    background-color: deepskyblue;
     border: dashed red 2px;
     display: flex;
     justify-content: space-between;
@@ -178,9 +193,45 @@ main {
 .big-box > div {
     width: 50%;
     height: 50%;
-    background-color: blue;
     border: 2px dashed red;
 }
+
+.big-box > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.big-box.asu {
+    background-color: #61082B;
+}
+
+.big-box.uf {
+    background-color: #0093CE;
+}
+
+.big-box.topps {
+    background-color: #FF1C1C;
+}
+
+.big-box.wbr {
+    background-color: #D5001F;
+}
+
+.big-box.hearts {
+    background-color: #B4D0E7;
+}
+
+.big-box.lonely {
+    background-color: #0D2481;
+}
+
+.big-box.cco {
+    background-color: #FFD830;
+}
+
+
+
 
 #testimonial {
     display: flex;
@@ -192,7 +243,7 @@ footer {
     color: white;
 }
 
-footer > ul li {
+footer ul li {
     list-style: none;
 }
 
