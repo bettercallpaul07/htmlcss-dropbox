@@ -6,8 +6,6 @@
     max-width: 1100px;
     min-height: 500px;
     margin-top: 50px;
-    border: 2px dashed red;
-
 }
 
 .hero-container {
@@ -15,7 +13,6 @@
 }
 
 .container-large {
-    border: 2px dashed red;
     max-width: 1300px;
     margin: 0 auto;
     height: 500px;
@@ -27,7 +24,7 @@
 header {
     padding: 10px;
     width: 100%;
-    height: 100px;
+    height: 70px;
 
     position: fixed;
     top: 0;
@@ -37,9 +34,15 @@ header {
     background-color: white;
 }
 
+#logo {
+    width: 33%;
+}
+
 
 .main-nav {
     width: 100%;
+    margin: 0 auto;
+
 }
 
 
@@ -124,7 +127,7 @@ header {
 /* MAIN */
 
 main {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 
@@ -135,8 +138,18 @@ main {
 
 .plan-column {
     margin: 0 auto;
-    min-height: 600px;
+    min-height: 800px;
     border: 1px solid lightgrey;
+}
+
+.plan-header {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    text-align: center;
+}
+
+.plan-header > i {
+    padding-right: 3px;
 }
 
 .plan-column ul {
@@ -148,6 +161,64 @@ main {
     padding-left: 40px;
 }
 
+
+.plan-column > h3 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.plan-column > p {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.plan-column ul li {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 0.8em;
+}
+
+.plan-column ul li i {
+    padding-right: 5px;
+}
+
+
+.month {
+    color: darkgrey;
+    font-size: 0.8em;
+    padding-bottom: 40px;
+}
+
+.testfree {
+    text-align: center;
+    border: white 2px solid;
+    padding-right: 70px;
+}
+
+.hrspace {
+    margin: 30px 200px 30px 50px;
+    border: 1px solid lightgray;
+}
+
+.shoplink {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+
+#point-imp > li {
+    list-style: none;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+#point-imp > h3 {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
 
 
 .card-test {
@@ -161,14 +232,20 @@ main {
 }
 
 
+
 #team {
     height: 300px;
 }
 
 
-#partner-container {
+#partner {
     height: 600px;
 }
+ 
+.image-partner > img {
+    width: 100%;
+}
+
 
 
 #partner-container > div {
@@ -192,7 +269,6 @@ main {
 .big-box {
     width: calc(100%/3);
     height: calc(100vw/3);
-    border: dashed red 2px;
     display: flex;
     justify-content: space-between;
     flex-grow: 1;

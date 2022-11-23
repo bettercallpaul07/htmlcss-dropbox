@@ -79,3 +79,16 @@
 .fwrap {
     flex-wrap: wrap;
 }
+
+.whibord {
+    border: 2px solid white;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.blue-icon {
+    color: #0061FF;
+}
+
