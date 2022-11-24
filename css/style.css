@@ -337,8 +337,32 @@ main {
     filter:invert(1)
 }
 
+#faq .container > h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 3em;
+    margin-top: 30px;
+
+}
 
 
+.q-box-container {
+    margin: 0 auto;
+}
+
+.q-box {
+    display: inline-block;
+}
+
+.q-box > p {
+    padding-top: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.q-box p span > i {
+    padding-left: 400px;
+}
 
 
 #testimonial {
