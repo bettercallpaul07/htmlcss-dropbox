@@ -149,6 +149,7 @@ main {
     margin-top: 80px;
 }
 
+/* <!-- Sezione Plan --> */
 
 .choise {
     display: inline-block;
@@ -179,7 +180,6 @@ main {
 
 #planc {
     padding-top: 60px;
-
 }
 
 
@@ -209,7 +209,6 @@ main {
 }
 
 
-
 .plan-column > h3 {
     padding-left: 20px;
     padding-top: 20px;
@@ -229,7 +228,6 @@ main {
 .plan-column ul li i {
     padding-right: 5px;
 }
-
 
 .month {
     color: darkgrey;
@@ -269,6 +267,7 @@ main {
     padding-bottom: 20px;
 }
 
+/* <!-- Sezione Team & Info --> */
 
 
 .team-header {
@@ -301,40 +300,11 @@ main {
 
 .enterprise h3 {
     padding-bottom: 10px;
-
 }
 
 .enterprise span {
     font-weight: bold;
     font-size: 0.7em;
-
-}
-
-
-
-.card-test {
-    width: 33%;
-    display: inline-block;
-}
-
-.card-test > img {
-    width: 100%;
-}
-
-.card-test > h3 {
-    font-weight: bold;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.card-test > p {
-    font-weight: lighter;
-    font-size: 0.9em;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
 }
 
 
@@ -376,11 +346,37 @@ main {
 }
 
 
-
 #partner-container > div {
     height: 400px;
     background-color: darkgoldenrod;
     border: 2px dashed blue;
+}
+
+/* <!-- Sezione Info --> */
+
+
+.card-test {
+    width: 33%;
+    display: inline-block;
+}
+
+.card-test > img {
+    width: 100%;
+}
+
+.card-test > h3 {
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-test > p {
+    font-weight: lighter;
+    font-size: 0.9em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #info-section .dflex > div {
@@ -399,6 +395,8 @@ main {
     flex-grow: 2;
 }
 
+/* <!-- Sezione Testimonial --> */
+
 
 .title-testimonial {
     margin-top: 80px;
@@ -416,7 +414,6 @@ main {
     padding-left: 30px;
     padding-right: 30px;
 }
-
 
 
 .big-box {
@@ -527,6 +524,10 @@ main {
     margin-right: 200px;
 }
 
+
+/* <!-- Sezione Domande Frequenti --> */
+
+
 #faq .container > h2 {
     text-align: left;
     margin-bottom: 30px;
@@ -558,6 +559,8 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
+/* <!-- Footer --> */
 
 
 footer {
