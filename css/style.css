@@ -112,30 +112,36 @@ header {
 
 .hero-title {
     height: 35%;
-    font-size: 2.2em;
-    padding-top: 50px;
-    padding-left: 200px;
+    font-size: 2.5em;
+    padding-top: 0px;
+    padding-left: 150px;
     padding-right: 200px;
+    padding-bottom: 30px;
     font-weight: bold;
 }
 
 .hero-info {
     width: 40%;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
-.hero-img {
-    width: 60%;
-}
 
 .hero-img > img {
     height: 100%;
     width: 100%;
 }
 
+.fa-arrow-down {
+    padding-top: 40px;
+}
+
+.fa-arrow-down:visited {
+    text-decoration: none;
+    color: black;
+}
 
 
 /* MAIN */
@@ -172,7 +178,10 @@ main {
     margin-top: 20px;
 }
 
+#planc {
+    padding-top: 60px;
 
+}
 
 
 .plan-column {
