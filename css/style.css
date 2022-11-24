@@ -45,7 +45,6 @@ header {
 .firstnav {
     width: 45%;
     margin: 0 auto;
-
 }
 
 .secondnav {
@@ -432,13 +431,12 @@ main {
 
 .logo-box {
     width: 50%;
-    height: 50%;
     background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    }
+}
 
 
 
