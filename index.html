@@ -15,19 +15,28 @@
     </head>
     <body>
         <header>
-            <nav class="main-nav dflex spacebwt">
-                <img #id="logo" src="img/logo-small.png" alt="Dropbox">
-                <ul class="dflex">
-                    <li><a href="#">Perché Dropbox</a></li>
-                    <li><a href="#">Funzioni</a></li>
-                    <li><a href="#">Piani e Prezzi</a></li>
-                </ul>
-                <ul class="dflex">
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
-                    <li><a href="#">Accedi</a></li>
-                    <li><a href="#" class="my-btn">Inizia</a></li>
-                </ul>
+            <nav class="main-nav dflex">
+                <div id="logo">
+                    <img src="img/logo-small.png" alt="Dropbox">
+                </div>
+                
+                <div class="firstnav">
+                    <ul class="dflex">
+                        <li><a href="#">Perché Dropbox</a></li>
+                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Piani e Prezzi</a></li>
+                    </ul>
+                </div>
+
+                <div class="secondnav">
+                    <ul class="dflex">
+                        <li><a href="#">Supporto</a></li>
+                        <li><a href="#">Contatta l'ufficio vendite</a></li>
+                        <li><a href="#">Accedi</a></li>
+                        <li><a href="#" class="my-btn">Inizia</a></li>
+                    </ul>
+                </div>
+
             </nav>
       
         </header>
@@ -57,10 +66,17 @@
 
             <!-- Sezione Plan -->
             <section class="plan-section container mgbotton30">
-                <h2>Trova il piano business che fa per te</h2>
+                <h2 class="bigtitle">Trova il piano business che fa per te</h2>
                 <div class="plan-choise">
-                    <span>Fatturazione mensile</span>
-                    <span>Fatturazione annuale</span>
+                    <span class="choise-box">
+                        <span class="choise active-choise"></span>
+                        <span class="choise-label">Fatturazione mensile</span>
+                    </span>
+
+                    <span class="choise-box">
+                        <span class="choise"></span>
+                        <span class="choise-label">Fatturazione annuale</span>
+                    </span>
                 </div>
 
                 <!-- Inizio Colonne -->
@@ -203,7 +219,7 @@
                     <p>Contatta l'ufficio vendite per i prezzi</p>
                     <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                     </div>
-                    
+
                     <div>
                         <button class="my-btn">Contatta l'ufficio vendite</button>
                     </div>
