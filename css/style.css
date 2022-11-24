@@ -395,13 +395,11 @@ main {
 }
 
 
-
-
 .info-column {
     height: 300px;
-    border: 1px dashed red;
     flex-grow: 2;
 }
+
 
 .title-testimonial {
     margin-top: 80px;
@@ -414,6 +412,11 @@ main {
     padding-top: 30px;
 }
 
+
+.big-box-center {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 
 
@@ -430,6 +433,7 @@ main {
 .logo-box {
     width: 50%;
     height: 50%;
+    background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -437,16 +441,9 @@ main {
     }
 
 
-.big-box > div {
-    width: 50%;
-    height: 50%;
-    border: 2px dashed red;
-}
-
 
 .big-box .designit {
     background-color: lightgreen;
-    background-size: cover;
     width: 50%;
     height: 50%;
     filter:invert(1);
@@ -455,7 +452,6 @@ main {
 
 .big-box .asu {
     background-color: #61082B;
-    background-size: cover;
     width: 50%;
     height: 50%;
     filter: invert(1);
@@ -463,15 +459,13 @@ main {
 
 .big-box .uf {
     background-color: #0093CE;
-    background-size: cover;
     width: 50%;
     height: 50%;
-    filter: invert(1)
+    filter: invert(1);
 }
 
 .big-box .topps {
     background-color: #FF1C1C;
-    background-size: cover;
     width: 50%;
     height: 50%;
     filter: invert(1);
@@ -482,7 +476,7 @@ main {
     background-size: cover;
     width: 50%;
     height: 50%;
-    filter:invert(1)
+    filter:invert(1);
 }
 
 .big-box .hearts {
@@ -490,7 +484,7 @@ main {
     background-size: cover;
     width: 50%;
     height: 50%;
-    filter:invert(1)
+    filter:invert(1);
 }
 
 .big-box .lonely {
@@ -498,7 +492,7 @@ main {
     background-size: cover;
     width: 50%;
     height: 50%;
-    filter:invert(1)
+    filter:invert(1);
 }
 
 .big-box .cco {
@@ -506,7 +500,33 @@ main {
     background-size: cover;
     width: 50%;
     height: 50%;
-    filter:invert(1)
+    filter:invert(1);
+}
+
+#joindrop {
+    height: 300px;
+    background-color: #B4D0E7;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#joindrop > h3 {
+    font-size: 2em;
+    color: #61082B;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.trailbutton {
+    background-color: azure;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    margin-right: 200px;
 }
 
 #faq .container > h2 {
